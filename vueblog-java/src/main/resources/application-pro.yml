@@ -1,0 +1,12 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    注意我本机的数据库安装在3300端口
+    url: jdbc:mysql://mysql:3300/vueblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+shiro-redis:
+  enabled: true
+  redis-manager:
+    host: redis:6379
